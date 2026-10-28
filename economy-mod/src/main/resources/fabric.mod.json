@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ecomod",
+  "version": "${version}",
+  "name": "Complete Economy",
+  "description": "Item shop, selling, 25 quests, levels with milestone rewards and homes. Server-side GUIs: vanilla clients can join.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.ecomod.EconomyMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
